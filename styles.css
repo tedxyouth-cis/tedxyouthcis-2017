@@ -1,0 +1,89 @@
+/* General */
+* {
+	font-family: Helvetica;
+	font-size: 3.5vw;
+}
+
+a, a:hover, a:active {
+	text-decoration: none !important;
+}
+
+a.black, a.black:hover, a.black:active {
+	color: black;
+}
+
+a.bold, a.bold:hover, a.bold:active {
+	font-weight: bold;
+}
+
+
+/* Title Page */
+#title-image {
+	width: 100%;
+}
+
+
+/* Introduction */
+.title {
+	margin-top: 6vmax;
+	margin-bottom: 2.5vmax;
+	font-weight: bold;
+	font-size: 4.5vw;
+}
+
+.red {
+	color: red;
+}
+
+p.intro {
+	text-align: center;
+}
+
+
+/* People */
+h3.speakers {
+	margin-top: 10vmax;
+}
+
+div.speakers {
+	margin: 5vh 1vw;
+}
+
+img.icon {
+	margin-bottom: 1vh;
+	width: 98%;
+}
+
+h4.heading {
+	font-weight: bold;
+	font-size: 4vw;
+}
+
+p.list {
+	line-height: 3.4vw;
+}
+
+
+/* Bios */
+span.bios {
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 3.6vw;
+}
+
+p.bios {
+	font-size: 2.7vw;
+}
+
+img.bios {
+	width: 98%;
+}
+
+a.top {
+	float: right;
+}
+
+img.top {
+	height: 3vmin;
+}
