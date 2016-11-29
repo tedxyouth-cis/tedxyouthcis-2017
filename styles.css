@@ -85,8 +85,8 @@ a.top {
 }
 
 #top {
-	height: 5vmin;
+	height: 6vmax;
 	position: fixed;
-	right: 2vw;
-	bottom: 2vh;
+	right: 3vw;
+	bottom: 3vh;
 }
