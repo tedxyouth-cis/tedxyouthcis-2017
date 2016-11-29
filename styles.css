@@ -84,6 +84,9 @@ a.top {
 	float: right;
 }
 
-img.top {
-	height: 3vmin;
+#top {
+	height: 5vmin;
+	position: fixed;
+	right: 2vw;
+	bottom: 2vh;
 }
