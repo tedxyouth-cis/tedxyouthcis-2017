@@ -25,6 +25,10 @@ a.bold, a.bold:hover, a.bold:active {
 	height: 100vh;
 }
 
+#alert {
+	display: inline;
+}
+
 #title-image {
 	width: 100%;
 	display: none;

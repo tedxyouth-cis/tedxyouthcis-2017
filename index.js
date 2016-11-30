@@ -22,17 +22,22 @@ $("#top").click(function(e) {
 
 
 // show different things on different screens
-$(window).on("load resize", function () {
-	console.log(window.innerWidth);
+$(window).on("load resize", function (e) {
 	if (window.innerWidth > 850) {
-		alert("View on your phone or decrease the width of your window to view the brochure!");
-		$("#poster").css("display", "initial");
+		var href = window.location.href;
+		if ("#" in href) {
+			var index = href.indexOf("#");
+			href = href.substring(0, index);
+		}
+		$("body").css("overflow", "hidden");
+		$("#substitute").css("display", "inherit");
 		$("#container").css("display", "none");
 		$("#title-image").css("display", "none");
 	}
 	else {
-		$("#poster").css("display", "none");
-		$("#container").css("display", "initial");
-		$("#title-image").css("display", "initial");
+		$("body").css("overflow", "auto");
+		$("#substitute").css("display", "none");
+		$("#container").css("display", "inherit");
+		$("#title-image").css("display", "inherit");
 	}
 });
