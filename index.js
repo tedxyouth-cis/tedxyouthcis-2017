@@ -26,9 +26,10 @@ $(window).on("load resize", function (e) {
 	if (window.innerWidth > 850) {
 		var href = window.location.href;
 		var index = href.indexOf("#");	
+		console.log(index !== -1);
 		if (index !== -1) {
-			// remove anchor from url if present
-			href = href.substring(0, index);
+			// remove anchor from url if present and change url
+			window.location.href = href.substring(0, index);
 		}
 		$("body").css("overflow", "hidden");
 		$("#substitute").css("display", "inherit");
