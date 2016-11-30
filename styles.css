@@ -16,10 +16,18 @@ a.bold, a.bold:hover, a.bold:active {
 	font-weight: bold;
 }
 
+#container {
+	display: none;
+}
 
 /* Title Page */
+#poster {
+	height: 100vh;
+}
+
 #title-image {
 	width: 100%;
+	display: none;
 }
 
 
