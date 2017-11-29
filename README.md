@@ -1,2 +1,2 @@
-# tedxyouth-2016
-TedxYouth@CIS Brochure (responsive)
+# tedxyouthcis-2017
+TEDxYouth@CIS 2017 Event Website (responsive)
